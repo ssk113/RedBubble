@@ -1,0 +1,87 @@
+.primary-bg-darker {
+  background-color: rgb(60, 0, 107, 1);
+}
+
+.blue_linear_background {
+  background: linear-gradient(110.26deg, #3c006b 7.58%, #8c1d75 98.88%)
+}
+
+.primary-bg-darker-pink {
+  background-color: rgba(255, 50, 105, 1) !important;
+}
+
+.primary-color-darker-pink {
+  color: rgba(255, 50, 105, 1);
+}
+
+.primary-linear-bg {
+  background-image: linear-gradient(98deg, rgb(214, 110, 177), rgb(201, 20, 156) 94%);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  background-color: rgb(153, 42, 238);
+  color: white;
+}
+
+/* GOOGLE AUTOCOMPLETE CONTAINER  */
+.pac-container {
+  z-index: 2000;
+}
+
+.gm-style .gm-style-cc {
+  display: none;
+}
+
+
+/* Custom Classes   */
+
+.flex-with-center-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2;
+}
+
+.flex-with-center-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6;
+}
+
+
+
+
+
+/* CUSTOMISING SWIPPER JS ARROWS  */
+:root {
+  --swiper-navigation-size: 15px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 50, 105, 1) !important;
+  right: .5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  color: #fffefe !important;
+  fill: black !important;
+  stroke: black !important;
+  top: var(--swiper-navigation-top-offset, 50%) !important;
+  border-radius: 5px !important;
+
+}
+
+.swiper-scrollbar-horizontal {
+  top: .1rem !important;
+  background-color: white !important;
+}
+
+
+/* ACCOUNT ROUTES CLASSES  */
